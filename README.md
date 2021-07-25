@@ -2,4 +2,4 @@
 
 Repository of the Concurrent Computing discipline
 
-# C++
+# C
