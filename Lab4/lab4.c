@@ -77,7 +77,7 @@ void *D(void *t){
 }
 
 
-//criacao, alocacao e verificacao de nulidade das threads
+//alocacao e verificacao de nulidade das threads
 pthread_t* createTid() {
   pthread_t* tid = (pthread_t *) malloc(sizeof(pthread_t) * NTHREADS);
   if (tid == NULL) {
